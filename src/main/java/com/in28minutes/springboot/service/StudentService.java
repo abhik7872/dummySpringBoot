@@ -17,7 +17,7 @@ public class StudentService {
         Course courseOne = new Course("Course1", "Spring", "10 Steps",
                 List.of("Learn Maven", "Import Project", "First Example", "Second Example"));
 
-        Course courseTwo = new Course("Course2", "Spring MVC", "10 Examples",
+        Course courseTwo = new Course("Course2", "Spring MVC", "10 no Examples",
                 List.of("Learn Maven", "Import Project", "First Example", "Second Example"));
 
         Student ranga = new Student("Student1", "Ranga Karanam",
