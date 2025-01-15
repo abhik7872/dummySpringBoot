@@ -9,6 +9,11 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 @SpringBootTest
 public class StudentServicesApplicationTests {
 
+	@BeforeClass  
+    	public static void setUpBeforeClass() throws Exception {  
+        	System.out.println("before class");  
+    	}
+
 	@Test
 	public void contextLoads() {
 	}
