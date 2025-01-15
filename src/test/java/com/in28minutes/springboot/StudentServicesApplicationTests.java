@@ -16,6 +16,7 @@ public class StudentServicesApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("dummy testcase");
 	}
 
 }
