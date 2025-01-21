@@ -19,4 +19,9 @@ public class StudentServicesApplicationTests {
 		System.out.println("dummy testcase");
 	}
 
+	@AfterClass
+	public static void setUpAfterClass() throws Exception {
+		System.out.println("after class");
+	}
+
 }
