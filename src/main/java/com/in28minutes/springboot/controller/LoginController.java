@@ -13,4 +13,9 @@ public class LoginController {
         return "welcome abhik";
     }
 
+    @GetMapping("/user/abhik")
+    public String showName() {
+        return "Abhik";
+    }
+
 }
